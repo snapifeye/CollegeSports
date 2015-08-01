@@ -43,7 +43,7 @@ a:hover{
 }
 a:visited{
    text-decoration: underline/none;
-   color: white;
+   color: #70abce;
    font-weight: bold/normal;
    /*make sure to change at least one thing from your a tag definition*/
 }
@@ -72,24 +72,26 @@ h4{
 .panel,.flip
 {
 padding:10px;
-background-color:grey;
-color:white;
+background-color:#ede7e5;
+color:#f2653b;
 text-align: right;
 cursor:pointer;
+box-shadow: 4px 4px 4px grey;
 }
 .panel
 {
 padding:10px 10px;
 display:none;
-background-color:grey;
-color:white;
+background-color:#ede7e5;
+color:#f2653b;
 float:right;
 }
 
 .headliner{
-  padding-top: 100px;
+  padding-top: 40px;
   margin-left: auto;
   margin-right: auto;
+  background:white;
 
 }
 
@@ -117,7 +119,7 @@ float:right;
 					z-index: -1;
 					top: 0px;
 					left: 0;
-					background-image: url("http://lawtonprinting.com/wp/wp-content/uploads/2013/07/promenadd_grey_background.jpg");
+					background-image: url("http://www.wired.com/wp-content/uploads/blogs/playbook/wp-content/uploads/2010/05/pennstate.jpg");
 					responsive:true;
         }
 .button{
@@ -136,5 +138,9 @@ float:right;
           box-shadow: 4px 4px 4px #6d6d6d;
           padding:25px;
         }
+
+.whitewash{
+          background-color:#fff;
+}
 
 </style>

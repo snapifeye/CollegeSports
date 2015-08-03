@@ -43,7 +43,7 @@ a:hover{
 }
 a:visited{
    text-decoration: underline/none;
-   color: #70abce;
+   color: navy;
    font-weight: bold/normal;
    /*make sure to change at least one thing from your a tag definition*/
 }
@@ -102,11 +102,11 @@ float:right;
   border-color: #f2653b;
   border-width: medium;
   border-radius: 2px;
-  width:300px;
-  height:130px;
+  width:auto;
+  height:auto;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 50px;
+  padding:10px 10px 20px 10px;
 
 }
 
@@ -116,7 +116,7 @@ float:right;
   border-width: medium;
   border-radius: 2px;
   background-color:#70abce;
-  width:50%;
+  width:60%;
   height:auto;
   margin-left: auto;
   margin-right: auto;

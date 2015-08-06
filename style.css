@@ -2,9 +2,12 @@
 
 
 body{
-   margin: 10px;
+   margin: 50px;
    padding: 100px;
+   padding-top: 100px;
 }
+
+
 div{
    margin: 0px;
    padding: 0px;
@@ -81,9 +84,16 @@ cursor:pointer;
 box-shadow: 4px 4px 4px grey;
 z-index:1000;
 }
+
+.flip{
+  position: fixed;
+  top:0px;
+  width:100%;
+
+}
 .panel
 {
-padding:10px 10px;
+padding:55px 10px 20px 10px;
 display:none;
 background-color:#ede7e5;
 color:#f2653b;
@@ -112,7 +122,24 @@ z-index:1000;
 
 }
 
-.boxblue{
+.boxWhite{
+  border-style: solid;
+  border-color: white;
+  border-width: medium;
+  border-radius: 2px;
+  width:auto;
+  height:auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding:10px 10px 20px 10px;
+
+}
+
+.boxblue {
+  display: block;
+  margin: auto;
+  vertical-align: middle;
+  text-align: center;
   border-style: solid;
   border-color:#70abce;
   border-width: medium;
@@ -120,8 +147,22 @@ z-index:1000;
   background-color:#70abce;
   width:66%;
   height:auto;
-  margin-left: auto;
-  margin-right: auto;
+  padding:10px;
+
+}
+
+.boxorange {
+  display: block;
+  margin: auto;
+  vertical-align: middle;
+  text-align: center;
+  border-style: solid;
+  border-color:#f2653b;
+  border-width: medium;
+  border-radius: 2px;
+  background-color:#f2653b;
+  width:66%;
+  height:auto;
   padding:10px;
 
 }
@@ -140,24 +181,22 @@ z-index:1000;
 					background-image: url("http://www.wired.com/wp-content/uploads/blogs/playbook/wp-content/uploads/2010/05/pennstate.jpg");
 					responsive:true;
         }
-.button{
+.button {
+          display: block;
+          margin: auto;
+          vertical-align: middle;
+          text-align: center;
           background: #f2653b;
           font-size: 24px;
           color:white;
-          text-align: center;
           width:75%;
-          height:50px;
-          border-style: solid;
-          border-color: #f2653b;
-          border-width: medium;
-          border-radius: 3px;
-          margin-left: auto;
-          margin-right: auto;
+          height:60px;
           box-shadow: 4px 4px 4px #6d6d6d;
-          padding:25px;
+          padding:15px;
         }
 
-.whitewash{
+.whitewash {
+          display: block;
           background-color:#fff;
 }
 

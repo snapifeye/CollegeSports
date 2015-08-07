@@ -46,14 +46,14 @@ a:hover{
 }
 a:visited{
    text-decoration: underline/none;
-   color: navy;
+   color: #193261;
    font-weight: bold/normal;
    /*make sure to change at least one thing from your a tag definition*/
 }
 
 h1{
   color:#70abce;
-  line-height: 200%;
+  line-height: 250%;
   text-align: center;
 }
 
@@ -90,6 +90,7 @@ line-height: 35px;
   position: fixed;
   top:0px;
   width:100%;
+  font-size: 24px;
 
 }
 .panel
@@ -103,6 +104,7 @@ background-color:#ede7e5;
 color:#f2653b;
 z-index:1000;
 width:100px;
+font-size: 20px;
 }
 
 .headliner{

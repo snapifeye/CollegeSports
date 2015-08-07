@@ -83,6 +83,7 @@ text-align: right;
 cursor:pointer;
 box-shadow: 4px 4px 4px grey;
 z-index:1000;
+line-height: 35px;
 }
 
 .flip{
@@ -93,12 +94,15 @@ z-index:1000;
 }
 .panel
 {
+position: fixed;
+top:40px;
+right:0px;
 padding:55px 10px 20px 10px;
 display:none;
 background-color:#ede7e5;
 color:#f2653b;
-float:right;
 z-index:1000;
+width:100px;
 }
 
 .headliner{
@@ -106,6 +110,9 @@ z-index:1000;
   margin-left: auto;
   margin-right: auto;
   background:white;
+  border-color:#193261;
+  border-width:5px;
+  border-style: solid;
 
 }
 

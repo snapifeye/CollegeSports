@@ -1,5 +1,6 @@
 <style>
 		html, body { margin: 0px; padding: 0px;background:transparent;!important }
+
 			.sn-widget-gallery--info--event-name{
 				position: absolute;
   			color: #FFFFFF;
@@ -31,7 +32,7 @@
 	  		bottom: 0px !important;
 	  		right: 0px !important;
 	  		left: 0% !important;
-				padding:25px;
+				padding:0px;
 			}
 				.sn-widget-wrapper{
 				 background:transparent !important;
@@ -82,35 +83,6 @@
 				font-family: Helvetica;
 			}
 			.sidebar {
-			   position: relative;
-				 padding:25px;
-				 align:center;
-			}
-
-				.tickets {
-				width: 45px;
-				height: 250px;
-				position: fixed;
-				left: 20%;
-				top: 60%;
-				}
-			a.MyButton {
-				display:block;
-				box-shadow: 6px 6px 8px #2d2d2d;
-				font-size: 32px;
-				color: white;
-				text-align:center;
-				line-height:71px;
-				width:auto;
-				max-width:500px;
-				height:71px;
-				border-radius:3px;
-				align:center;
-				background:#f2653b;
-				font-family: Helvetica;
-			}
-
-				.sidebar {
 			   position: relative;
 				 padding:25px;
 				 align:center;

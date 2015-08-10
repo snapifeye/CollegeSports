@@ -161,16 +161,17 @@ font-size: 20px;
 }
 
 .boxorange {
+
   display: block;
   margin: auto;
   vertical-align: middle;
   text-align: center;
   border-style: solid;
-  border-color:#f2653b;
+  border-color:white;
   border-width: medium;
   border-radius: 2px;
   background-color:#f2653b;
-  width:66%;
+  width:75%;
   height:auto;
   padding:10px;
 
@@ -208,5 +209,28 @@ font-size: 20px;
           display: block;
           background-color:#fff;
 }
+
+.buttonResponsive {
+          display: none;
+          }
+
+.snapifeye-widget{
+          height:auto !important;
+          }
+
+@media (max-width: 650px) {
+.buttonResponsive {
+          display: block;
+          margin: auto;
+          text-align: center;
+          background: white;
+          font-size: 24px;
+          color:#f2653b;
+          width:75%;
+          height:60px;
+          box-shadow: 4px 4px 4px #6d6d6d;
+          padding:15px;
+        }
+      }
 
 </style>
